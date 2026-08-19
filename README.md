@@ -3,6 +3,7 @@ In the final year of my BSc Artificial Intelligence / Computer Science degree, I
 In this project, I compared an LSTM, CNN, CNN-LSTM, and a Transformer model for next-day Apple stock price prediction. Each model is trained on 10 years of historical OHLCV data, with experiments performed to assess whether incorporating technical indicators and financial news sentiment features improve predictive performance. Models are evaluated using statistical error metrics, directional accuracy and a backtesting framework was designed to assess whether model predictions can be translated into a profitable trading strategy. The best performing model (LSTM) was also extended to forecast directional movements and returns, testing its suitability for generating predictions on live market data. The generated predictions were then saved into SQL and used to generate reports in Excel.  
 
 Project Navigation:
+
 Baseline Models: Contains all deep learning models (LSTM, CNN, CNN-LSTM, Transformer) only trained on OHLCV (Open, High, Low, Close & Volume) data to establish a baseline for evaluating whether incorporating technical indicators and sentiment features would improve predictive performance.
 
 Correlation Matrix: Shows the code I used to to select the most relevant features to feed my models using a feature selection method (Spearman correlation and Mutual Information)
