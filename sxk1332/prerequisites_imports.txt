@@ -1,0 +1,11 @@
+To Get Historial Stock Market Data:
+pip install yfinance 
+py -m pip install --upgrade pip
+
+For Python database connectivity:
+pip install pyodbc 
+pip install pypyodbc
+pip install sqlalchemy
+pip install tensorflow
+pip install matplotlib
+pip install scikit-learn
